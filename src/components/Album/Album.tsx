@@ -14,7 +14,7 @@ export const Album: React.FC = () => {
 
     return (
         <List filters={filters}>
-            <Datagrid rowClick="show">
+            <Datagrid rowClick="show" bulkActionButtons={false}>
                 <TextField source="userId"/>
                 <TextField source="title"/>
             </Datagrid>
