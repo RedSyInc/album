@@ -1,7 +1,7 @@
 import jsonServerProvider from "ra-data-json-server";
 import {Admin, RaThemeOptions, Resource, defaultTheme} from "react-admin";
-import {Album} from "@/pages/components/Album/Album";
-import {Photos} from "@/pages/components/Photos/Photos";
+import {Album} from "@/components/Album/Album";
+import {Photos} from "@/components/Photos/Photos";
 
 const dataProvider = jsonServerProvider("https://jsonplaceholder.typicode.com");
 
